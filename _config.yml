@@ -1,39 +1,82 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-title: Hyperspace
-email: youremailaddress@gmail.com
-description: The Jekyll version of the Hyperspace theme by HTML5 UP.
-baseurl: "/hyperspace-jekyll-theme" # the subpath of your site, e.g. /blog
-url: "https://andrewbanchich.gitlab.io" # the base hostname & protocol for your site
+title: Jatomis Stevenson
+subtitle: Ideas become reality.
+email: Jatomis.Stevenson@gmail.com
+description: A FREE AND FULLY RESPONSIVE SITE TEMPLATE
+author: Jatomis Stevenson
+street_address: 
+city: Los Angeles
+state: California
+zip_code: 
+country: United States of America
+phone: 
+
+# Server Settings
+#baseurl: "/home" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+#port: 3000 # the port you call when serving locally
 
 # Social settings
-500px_url: 
-facebook_url: https://facebook.com
-github_url: 
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-pinterest_url: 
+500px_url:
+facebook_url:
+github_url:
+gitlab_url: 
+googleplus_url: 
+instagram_url: https://www.instagram.com/jatomis/
+linkedin_url: https://www.linkedin.com/in/jatomis-stevenson-7b309452/
+pinterest_url:
 slack_url: 
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url: https://twitter.com/jatomis
+medium_url:
 
 # Build settings
 markdown: kramdown
 
-# Plugin: jekyll-seo-tag
-twitter:
-  username: andrewbanchich
-# Add one or more of the following
-facebook:
-  app_id: 
-  publisher: 
-  admins: 
-logo:
-google_site_verification: 
+# Excerpt separator definition
+excerpt_separator: "<!--excerpt-->"
+
+# Sidebar blurb to get in contact
+sidebar_blurb:
+
+
+# Collections settings (Allows the left hand menus to work properly)
+collections:
+  anchors:
+    submenu:
+    another_submenu:
+    output: true
+    permalink: /:name
+  #mini_articles:
+    #output: true
+    #permalink: /:name
+#plugins: [jekyll-paginate]
+#paginate: 100
+
+#Default settings (Allows the creation of predefined post fields when working with Jekyll Admin)
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
+      tags: ""
+      image: ""
+      imagecredit: ""
+      aggregatelimit: 4
+      unlistedtags: ""
+      
+  -
+    scope:
+      path: ""
+      type: "anchors"
+    values:
+      layout: "page"
+      tag: ""
+      icon: ""
+      image: ""
+      imagecredit: ""
+      includepost: 1
+      aggregatelimit: 4
+      
+show drafts: true

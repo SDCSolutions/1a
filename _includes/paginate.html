@@ -1,0 +1,15 @@
+<!-- This loops through the paginated posts -->
+<div class="PageNavigation" align=center>
+  {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url | absolute_url}}">&laquo; Previous</a>
+  {% else %}
+  <span class="previous">Previous</span>
+  {% endif %}
+     | 
+  {% if page.next.url %}
+      <a class="next" href="{{page.next.url | absolute_url}}">Next &raquo;</a>
+      {% else %}
+      <span class="next ">Next</span>
+    
+  {% endif %}
+</div>

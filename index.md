@@ -1,116 +1,16 @@
 ---
 layout: default
-title: Hyperspace by HTML5 UP
+published: true
+header1: Welcome, I'm Jatomis Stevenson
+cta: Invention
+image: https://i.imgur.com/c0Y9q2i.jpg
+picLinkAlt: Jatomis, a pet camera, electric vehicle charge station, and designer bag,.
+aggregateLimit: 4
+subtitle: Ideas become reality.
+
 ---
+Welcome, this website is a collection of thoughts and ideas I have had as I work on multiple projects. The end goal is to have a personal library of work upon which I can reference in the future, a repository that will act as my Curriculum Vitae, as well as provide value to the people who read what I have written here. Many of the posts will be syndicated to either Linkedin, Facebook, Instagram, Medium, Youtube or Steemit but here will be the main hub for all content I post on the web. Try as I might to focus my interest on one body of knowledge, I am not wired to simply be content with one field of research. Thus, you will see here topics ranging from security, both in the physical sense and digital sense, art, fashion, technology, manufacturing, psychology, engineering, coding, motorcycles, marketing. I have done all this research to fix problems I have encountered and hope that what you read here will be useful to you.
 
-<!-- Sidebar -->
-<section id="sidebar">
-	<div class="inner">
-		<nav>
-			<ul>
-				<li><a href="#intro">Welcome</a></li>
-				<li><a href="#one">Who we are</a></li>
-				<li><a href="#two">What we do</a></li>
-				<li><a href="#three">Get in touch</a></li>
-			</ul>
-		</nav>
-	</div>
-</section>
+For those of you who are interested in what I do professionally:
 
-<!-- Wrapper -->
-<div id="wrapper">
-
-<!-- Intro -->
-<section id="intro" class="wrapper style1 fullscreen fade-up">
-	<div class="inner">
-		<h1>Hyperspace</h1>
-		<p>Just another fine responsive site template designed by <a href="http://html5up.net">HTML5 UP</a><br />
-		and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.</p>
-		<ul class="actions">
-			<li><a href="#one" class="button scrolly">Learn more</a></li>
-		</ul>
-	</div>
-</section>
-
-<!-- One -->
-<section id="one" class="wrapper style2 spotlights">
-	<section>
-		<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
-		<div class="content">
-			<div class="inner">
-				<h2>Sed ipsum dolor</h2>
-				<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-				<ul class="actions">
-					<li><a href="#" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
-		<div class="content">
-			<div class="inner">
-				<h2>Feugiat consequat</h2>
-				<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-				<ul class="actions">
-					<li><a href="#" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
-		<div class="content">
-			<div class="inner">
-				<h2>Ultricies aliquam</h2>
-				<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-				<ul class="actions">
-					<li><a href="#" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-</section>
-
-<!-- Two -->
-<section id="two" class="wrapper style3 fade-up">
-	<div class="inner">
-		<h2>What we do</h2>
-		<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
-		<div class="features">
-			<section>
-				<span class="icon major fa-code"></span>
-				<h3>Lorem ipsum amet</h3>
-				<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-			</section>
-			<section>
-				<span class="icon major fa-lock"></span>
-				<h3>Aliquam sed nullam</h3>
-				<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-			</section>
-			<section>
-				<span class="icon major fa-cog"></span>
-				<h3>Sed erat ullam corper</h3>
-				<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-			</section>
-			<section>
-				<span class="icon major fa-desktop"></span>
-				<h3>Veroeros quis lorem</h3>
-				<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-			</section>
-			<section>
-				<span class="icon major fa-chain"></span>
-				<h3>Urna quis bibendum</h3>
-				<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-			</section>
-			<section>
-				<span class="icon major fa-diamond"></span>
-				<h3>Aliquam urna dapibus</h3>
-				<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-			</section>
-		</div>
-		<ul class="actions">
-			<li><a href="#" class="button">Learn more</a></li>
-		</ul>
-	</div>
-</section>
+I have assisted with in raising over $50 million as well brought several products to market. My experience in working with testing labs as well as manufacturing techniques such as 3D Printing, machining, injection molding, casting, electronics, computers, programming and marketing can help bring your idea to reality. If you wish to make products to sell to others for more than just the chance of a royalty like you do with other invention services, click the Invention button. <a href="{{ 'invention' | relative_url}}" class="button big">{{page.cta}}</a>

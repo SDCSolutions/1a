@@ -1,0 +1,62 @@
+<!-- Sidebar -->
+  <div id="sidebar">
+    <div class="inner">
+
+      <!-- Search -->
+       <!-- <section id="search" class="alt">
+          <form method="post" action="#">
+            <input type="text" name="query" id="query" placeholder="Search" />
+          </form>
+        </section> -->
+
+      <!-- Menu -->
+        <nav id="menu">
+          <header class="major">
+            <h2>Menu</h2> 
+          </header>
+          <ul>
+            <li><a href="{{ '/' | absolute_url }}">Home</a></li>
+            {% for page in site.anchors %}
+             <li><a href="{{ page.url |absolute_url }}">{{page.title}}</a></li>                     
+            {% endfor %}
+          </ul>
+        </nav>
+      </section>
+      <!-- Section -->
+      <!--  <section>
+          <header class="major">
+            <h2>Ante interdum</h2>
+          </header>
+          <div class="mini-posts">
+            {% for articles in site.mini_articles %}
+            <article>
+                <a href="{{articles.url | absolute_url}}" class="image"><img src="{{articles.image}}" alt="" /></a>
+                <p>{{articles.excerpt}}</p>
+            </article>
+            {%endfor%}
+          <ul class="actions">
+            <li><a href="#" class="button">More</a></li>
+          </ul>-->
+              {% include related.html %}
+      <!-- Section -->
+        <section>
+          <header class="major">
+            <h2>Get in touch</h2>
+          </header>
+          <p>{{site.sidebar_blurb}}</p>
+          <ul class="contact">
+            <li class="fa-envelope-o"><a href="#">{{ site.email }}</a></li>
+            <!--<li class="fa-phone">{{ site.phone }}</li>-->
+            <li class="fa-home"><!--{{ site.street_address }}<br />-->
+            {{ site.city }}, {{ site.state }} {{ site.zip_code }}<br />
+            {{ site.country }}</li>
+          </ul>
+        </section>
+
+      <!-- Footer -->
+        <footer id="footer">
+          <p class="copyright">&copy; {{ site.title }}. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>. Jekyll integration: <a href="https://andrewbanchi.ch">Andrew Banchich</a> & Jatomis Stevenson.</p>
+        </footer>
+
+    </div>
+  </div>

@@ -1,0 +1,21 @@
+                <!-- Banner -->
+                <section id="banner">
+                        <div class="content">
+                        <header>
+                            <h1>{{page.header1}}</h1>
+                            <p>{{page.subtitle}}</p>
+                        </header>
+                        <p>{{content}} </p>
+
+    
+                        {% if page.image %}
+                        </div>
+                        <span class="image object">
+                        <img src="{{page.image | absolute_url}}" alt={{page.picLinkAlt}} />
+                        <p align = "right" >{{page.imagecredit}}</p>
+                        {% endif %}
+                        </span>
+                        
+                    </section>
+
+      

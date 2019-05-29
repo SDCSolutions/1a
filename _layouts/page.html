@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Main -->
+        <div id="main">
+            <div class="inner">
+
+                {% include header.html %}
+
+                <!-- Content -->
+                <section>
+                    <div class="content">
+                	<header class="main">
+                		<h1>{{ page.title }}</h1>
+                	</header>
+                    <p>{{ content }}</p>
+                    
+                     {% if page.image %}
+                     
+                    <span class="image main"><img src="{{ page.image | absolute_url }}" alt="{{page.imagecredit}}" /></span>
+                    <p align = "right" >{{page.imagecredit}}</p>
+                    {% endif %}
+                    {% if page.includepost == 1%}
+                    {% include aggregate.html %}
+                    {% endif %}
+                    
+                    </div>
+                    
+              </div>
+          </div>
+
+          {% include sidebar.html %}
+
+      </div>
+
+      {% include footer.html %}
+
+</body>
+
+</html>

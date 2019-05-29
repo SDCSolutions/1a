@@ -1,42 +1,55 @@
-# (WIP) Hyperspace - Jekyll Theme
+# (WIP) Editorial - Jekyll Theme
 
-A Jekyll version of the "Hyperspace" theme by HTML5 UP.
+A Jekyll version of the "Editorial" theme by [HTML5 UP](https://html5up.net/).
 
-![Hyperspace Theme](images/hyperspace.jpg "Hyperspace Theme")
+![Editorial Theme](assets/images/screenshot.jpg "Editorial Theme")
 
 # How to Use
 
-For those unfamiliar with how Jekyll works, check out [https://jekyllrb.com/](https://jekyllrb.com/) for all the details, 
-or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/), 
+For those unfamiliar with how Jekyll works, check out [https://jekyllrb.com/](https://jekyllrb.com/) for all the details,
+or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/),
 and [creating pages](https://jekyllrb.com/docs/pages/).
 
-- **GitLab**: Simply fork this repository and start editing the `_config.yml` file!  
-- **GitHub**: Fork this reposity and create a branch named `gh-pages`, then start editing the `_config.yml` file!
+- **GitLab**: Simply fork this repository and start editing the `_config.yml` file!
+- **GitHub**: Fork this reposity and create a branch named `gh-pages`, then start editing the `_config.yml` file! The `.gitlab-ci.yml` file is only needed for GitLab Pages, so feel free to delete this if you are using GitHub instead.
 
-# Issues
+# Added Features
 
-If you would like to report a bug, ask a question, request a feature, feel free to do so on [the GitLab repository](https://gitlab.com/andrewbanchich/hyperspace-jekyll-theme) and I will be more than happy to help!
+* Add your **social profiles** easily in `_config.yml`.
 
-Alternatively, you can open an issue via email by emailing [incoming+andrewbanchich/hyperspace-jekyll-theme@incoming.gitlab.com](mailto:incoming+andrewbanchich/hyperspace-jekyll-theme@incoming.gitlab.com).
+# Configuration
 
-The GitHub repository is simply a mirror of the GitLab repository.
+You can use the following custom parameters in `_config.yml`.
+
+## Site
+- `subtitle` sets the text for the lighter colored text next to your site's title.
+
+## Social
+- `500px_url`
+- `facebook_url`
+- `github_url`
+- `gitlab_url`
+- `googleplus_url`
+- `instagram_url`
+- `linkedin_url`
+- `pinterest_url`
+- `slack_url`
+- `twitter_url`
 
 # Credits
 
 Original README from HTML5 UP:
 
 ```
-Hyperspace by HTML5 UP
+Editorial by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
-So I've had the wireframe for this particular design kicking around for some time, but with all
-the other interesting (and in some cases, semi-secret) projects I've been working on it took me
-a little while to get to actually designing and coding it. Fortunately, things have eased up
-enough for me to finaly get around to it, so I'm happy to introduce Hyperspace: a fun, blocky,
-one-page design with a lot of color, a bit of animation, and an additional "generic" page template
-(because hey, even one-page sites usually need an interior page or two). Hope you dig it :)
+Say hello to Editorial, a blog/magazine-ish template built around a toggleable "locking"
+sidebar (scroll down to see what I mean) and an accordion-style menu. Not the usual landing
+page/portfolio affair you'd expect to see at HTML5 UP, but I figured for my 41st (!!!)
+template I'd change it up a little. Enjoy :)
 
 Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
 you can use for pretty much whatever.
