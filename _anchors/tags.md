@@ -1,9 +1,9 @@
 ---
-layout: default
-title: Blog Tags
-image: john-carlisle-539580.jpg
+layout: home
+title: Archive
+image: assets/images/john-carlisle-539580.jpg
 imagecredit: Photo by John Carlisle on Unsplash
-header1: Blog Tags
+header1: Archive
 ---
 {% for tag in site.tags %}
 {% assign t = tag | first %}

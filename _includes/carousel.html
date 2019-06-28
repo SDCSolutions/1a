@@ -1,0 +1,24 @@
+
+
+<header class="major">    
+<h2>Services</h2>
+</header>
+
+
+
+<div class="mini-posts" style="word-wrap:normal; overflow-x:auto; align-items: center">
+{% for articles in site.posts %}
+<div style="width: 23em; float: left; padding: 0 15px; overflow-x:auto; align-items: center;">
+    <article>
+        <DIV>
+            <a href="{{articles.url | absolute_url}}" class="image"><img src="{{articles.image}}" alt="" /></a>
+            <p>{{articles.excerpt}}</p>
+        </DIV>
+        
+    </article>
+    </div>
+{%endfor%}
+</div>
+<ul class="actions" style="align:center;">
+<li><a href="#" class="button">More</a></li>
+</ul>
