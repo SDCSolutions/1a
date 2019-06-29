@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: bookings
 title: Welcome
 published: true
 ---
