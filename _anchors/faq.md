@@ -9,7 +9,7 @@ tag: default
 subtitle: 
 ---
 
-What is the your billing rate?
+What is the billing rate?
 ------------------------
 Work will be carried out at an hourly rate of $135/hr. I will be happy to send you a quote on the project you wish to initiate and negotiate with you on price if necessary. Once a quote is given and deliverables communicated and set in stone, anything beyond those deliverables will be charged at the hourly rate. All contracts will begin upon an intial deposit of 50% of the quote plus the cost of materials. The rest of payment will be due upon completion of the deliverables. Standard invoicing frequency is weekly and should be paid within 14 days from presentation of the invoice. Clients can choose their payment terms, invoicing frequency and deliverables to work out the hourly rates that will apply. Prices may be subject to change without notice.
 

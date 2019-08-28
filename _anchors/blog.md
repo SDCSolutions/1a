@@ -10,4 +10,4 @@ includepost: 1
 aggregateLimit: 4
 subtitle: 
 ---
-Learn some of the tricks of the trade here as well as how to do effective product development in our articles.
+Everything that our team knows how to do we will give to you free of charge. We want the people we interact with to be successful regardless of whether or not you give us your business or not. Our team has spent a lot of time in the product development space from fundraising, VC negotiations, pitching, getting products through certifying bodies, starting businesses, getting clients and offering immense value. Here, we will give it all away for free so that you can make better decisions.
